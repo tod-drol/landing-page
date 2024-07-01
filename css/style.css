@@ -24,6 +24,7 @@ body {
 
 .header {
   background-color: #1f2937;
+  padding-bottom: 60px;
 }
 
 .title {
@@ -89,7 +90,66 @@ body {
 }
 
 /* information section */
+
+.information {
+  padding-bottom: 6rem;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  text-align: center;
+  margin: 0;
+}
+
+.card p {
+  width: 80%;
+  padding-top: 8px;
+  margin: 0 auto;
+}
+
+.card img {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 /* quote section */
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  background-color: #e5e7eb;
+  padding: 60px 60px;
+}
+
+.quote blockquote {
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+.quote cite {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 300px;
+}
+
 /* cta section */
 /* footer section */
 
