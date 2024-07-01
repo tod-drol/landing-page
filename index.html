@@ -3,72 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="header">
-      <div class="nav">
-        <h3 class="title">Header Logo</h3>
-        <ul>
-          <li>
-            <a href="#">header link one</a>
-          </li>
-          <li>
-            <a href="#">header link two</a>
-          </li>
-          <li>
-            <a href="#">header link three</a>
-          </li>
-        </ul>
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <h3 class="title">Header Logo</h3>
+          <ul class="links">
+            <li>
+              <a href="#">header link one</a>
+            </li>
+            <li>
+              <a href="#">header link two</a>
+            </li>
+            <li>
+              <a href="#">header link three</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero">
+          <div class="signup">
+            <h1 class="hero-primary">This website is awesome</h1>
+            <p class="hero-secondary">
+              This website has some subtext that goes here under the main title.
+              it's a smaller font and the color is lower contrast
+            </p>
+            <button>Sign up</button>
+          </div>
+          <div class="banner">
+            <img src="./img/placeholder.png" alt="placeholder" />
+          </div>
+        </div>
       </div>
-      <div class="hero">
-        <div class="signup">
-          <h1>This website is awesome</h1>
+      <div class="information">
+        <h2>Some random information</h2>
+        <div class="info-cards">
+          <div class="card">
+            this is some subtext under and illustration or image
+          </div>
+          <div class="card">
+            this is some subtext under and illustration or image
+          </div>
+          <div class="card">
+            this is some subtext under and illustration or image
+          </div>
+          <div class="card">
+            this is some subtext under and illustration or image
+          </div>
+        </div>
+      </div>
+      <div class="quote">
+        <blockquote>
           <p>
-            This website has some subtext that goes here under the main title.
-            it's a smaller font and the color is lower contrast
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+            <cite>-Thor, God of Thunder</cite>
           </p>
-          <button>Sign up</button>
-        </div>
-        <div class="banner">
-          <img src="./img/placeholder.png" alt="placeholder" />
-        </div>
+        </blockquote>
       </div>
-    </div>
-    <div class="information">
-      <h2>Some random information</h2>
-      <div class="info-cards">
-        <div class="card">
-          this is some subtext under and illustration or image
+      <div class="cta">
+        <div class="instructions">
+          <p>Call to action it's time!</p>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
         </div>
-        <div class="card">
-          this is some subtext under and illustration or image
-        </div>
-        <div class="card">
-          this is some subtext under and illustration or image
-        </div>
-        <div class="card">
-          this is some subtext under and illustration or image
-        </div>
+        <button>Sign up</button>
       </div>
-    </div>
-    <div class="quote">
-      <blockquote>
-        <p>
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice.
-          <cite>-Thor, God of Thunder</cite>
-        </p>
-      </blockquote>
-    </div>
-    <div class="cta">
-      <div class="insturctions">
-        <p>Call to action it's time!</p>
-        <p>Sign up for our product by clicking that button right over there!</p>
-      </div>
-      <button>Sign up</button>
     </div>
     <footer>
       <p>Copyright &copy; The Odin Project 2021</p>
