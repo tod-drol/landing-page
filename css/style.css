@@ -111,7 +111,7 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 200px;
+  max-width: 600px;
   text-align: center;
   margin: 0;
 }
@@ -125,7 +125,8 @@ body {
 .card img {
   border: 3px solid #3882f6;
   border-radius: 8px;
-  max-width: 300px;
+  min-width: 250px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -137,22 +138,68 @@ body {
   font-weight: 300;
   background-color: #e5e7eb;
   padding: 60px 60px;
+  margin-bottom: 36px;
 }
 
 .quote blockquote {
-  max-width: 45%;
+  max-width: 44%;
   margin: 0 auto;
 }
 
 .quote cite {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 300px;
+  float: right;
 }
 
 /* cta section */
+
+.cta {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px;
+  background-color: #3882f6;
+  width: 55%;
+  border-radius: 8px;
+}
+
+.cta button {
+  color: #f9faf8;
+  padding: 8px 36px;
+  border: 1px solid #f9faf8;
+  border-radius: 8px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+}
+
+.instructions-primary {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.instructions-secondary {
+  color: #f9faf8;
+  margin: 0;
+}
+
 /* footer section */
 
 footer {
+  text-align: center;
+  padding: 36px;
   background-color: #1f2937;
+  color: #f9faf8;
 }
